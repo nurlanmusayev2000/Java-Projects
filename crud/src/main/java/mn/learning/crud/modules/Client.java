@@ -73,4 +73,11 @@ public class Client {
 	public void setCreatedAt(Date createdAt) {
 		this.createdAt = createdAt;
 	}
+	@Override
+	public String toString() {
+		return "Client [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", phone=" + phone + ", address=" + address + ", status=" + status + ", createdAt=" + createdAt + "]";
+	}
+	
+	
 }
